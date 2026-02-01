@@ -97,7 +97,7 @@ li:hover {
 
 .hero {
   height: 500px;
-  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5), rgba(107, 186, 254, 0.5)), url("/elite/images/IMG_20240206_213037_912.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5), rgba(107, 186, 254, 0.5)), url("IMG_20240206_213037_912.jpg");
   background-size: cover;
 }
   
