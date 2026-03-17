@@ -1,187 +1,183 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>farmland hotel</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
-  </head>
- <body>
-  <div class="hero">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONLINE JOBS - Work From Home</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #333;
+        }
+        header {
+            background-color: #0056b3;
+            color: white;
+            padding: 20px 10%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header img {
+            height: 60px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background-color: #e6f0ff;
+        }
+        .hero h1 {
+            color: #0056b3;
+            font-size: 36px;
+        }
+        .hero button {
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #0056b3;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        .hero button:hover {
+            background-color: #003d80;
+        }
+        .section {
+            padding: 40px 10%;
+        }
+        .section h2 {
+            color: #0056b3;
+            margin-bottom: 20px;
+        }
+        .jobs-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .job-card {
+            flex: 1 1 calc(33% - 20px);
+            background-color: #f2f9ff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.1);
+        }
+        .job-card h3 {
+            margin-top: 0;
+            color: #0056b3;
+        }
+        .job-card button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #0056b3;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .job-card button:hover {
+            background-color: #003d80;
+        }
+        footer {
+            background-color: #0056b3;
+            color: white;
+            text-align: center;
+            padding: 20px 10%;
+        }
+        @media(max-width: 900px){
+            .jobs-list {
+                flex-direction: column;
+            }
+            .job-card {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
     <header>
-      <section class="logo">
-      <img src="" alt="logo">
-      </section>
-      
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#description">Description</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#about us">About Us</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+        <img src="a_digital_vector_graphic_logo_for_online_jobs_fe.png" alt="ONLINE JOBS Logo">
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#jobs">Jobs</a>
+            <a href="#payment">Payment</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </header>
-    <h1>Elite General Trading PLC</h1>
-  </div>
-  
-  <div class="description" id="description">
-    <h3>Description</h3>
-    <section class="d">
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque asperiores dignissimos exercitationem quasi nemo ipsum beatae, odit labore quia adipisci ullam illum mollitia hic architecto voluptatem atque officia voluptatum nobis eaque natus repellendus voluptates! Libero saepe sed accusantium laborum voluptas. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque asperiores dignissimos exercitationem quasi nemo ipsum beatae, odit labore quia adipisci ullam illum mollitia hic architecto voluptatem atque officia voluptatum nobis eaque natus repellendus voluptates! Libero saepe sed accusantium laborum voluptas.</p>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h1>Find Work From Home Opportunities</h1>
+        <p>Start earning money online with real remote jobs</p>
+        <button>Start Working</button>
     </section>
-    <section class="d">
-      <img src="IMG_20260131_094719_915.jpg" alt="image">
+
+    <!-- Jobs Section -->
+    <section class="section" id="jobs">
+        <h2>Available Jobs</h2>
+        <div class="jobs-list">
+            <div class="job-card">
+                <h3>Online Advertising Jobs</h3>
+                <p>Promote products and services online from your home.</p>
+                <button>Apply Now</button>
+            </div>
+            <div class="job-card">
+                <h3>Data Entry Jobs</h3>
+                <p>Enter data accurately for companies and organizations.</p>
+                <button>Apply Now</button></div>
+            <div class="job-card">
+                <h3>Social Media Jobs</h3>
+                <p>Manage social media accounts and campaigns.</p>
+                <button>Apply Now</button>
+            </div>
+            <div class="job-card">
+                <h3>Online Sales Jobs</h3>
+                <p>Sell products online and earn commission from home.</p>
+                <button>Apply Now</button>
+            </div>
+            <div class="job-card">
+                <h3>Content Writing Jobs</h3>
+                <p>Write articles, blogs, and web content for clients.</p>
+                <button>Apply Now</button>
+            </div>
+        </div>
     </section>
-    <section class="d">
-      <img src="IMG_20260131_094720_048.jpg" alt="image">
+
+    <!-- Payment Section -->
+    <section class="section" id="payment">
+        <h2>Payment Information</h2>
+        <p>Please use the following bank account to send payment, and send a screenshot to confirm registration:</p>
+        <ul>
+            <li>Bank: <strong>Commercial Bank of Ethiopia</strong></li>
+            <li>Account Name: <strong>MIKI TAMIRU</strong></li>
+            <li>Account Number: <strong>1000568039592</strong></li>
+        </ul>
     </section>
-    <section class="d">
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque asperiores dignissimos exercitationem quasi nemo ipsum beatae, odit labore quia adipisci ullam illum mollitia hic architecto voluptatem atque officia voluptatum nobis eaque natus repellendus voluptates! Libero saepe sed accusantium laborum voluptas. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque asperiores dignissimos exercitationem quasi nemo ipsum beatae, odit labore quia adipisci ullam illum mollitia hic architecto voluptatem atque officia voluptatum nobis eaque natus repellendus voluptates! Libero saepe sed accusantium laborum voluptas.</p>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <h2>Contact Us</h2>
+        <p>Website Manager: <strong>MIKI TAMIRU</strong> (Agent, Ethiopia)</p>
+        <p>Phone: <strong>0920414579</strong></p>
+        <p>Email: <strong>support@onlinejobs.com</strong></p>
     </section>
-    <section class="d">
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque asperiores dignissimos exercitationem quasi nemo ipsum beatae, odit labore quia adipisci ullam illum mollitia hic architecto voluptatem atque officia voluptatum nobis eaque natus repellendus voluptates! Libero saepe sed accusantium laborum voluptas. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque asperiores dignissimos exercitationem quasi nemo ipsum beatae, odit labore quia adipisci ullam illum mollitia hic architecto voluptatem atque officia voluptatum nobis eaque natus repellendus voluptates! Libero saepe sed accusantium laborum voluptas.</p>
-      </section>
-      <section class="d">
-        <img src="IMG_20240206_212137_633.jpg" alt="image">
-      </section>
-    </div>
-    
-    <div class="projects" id="projects">
-      <h3>Projects</h3>
-      <section class="p">
-        <img src="IMG_20240206_213037_634.jpg" alt="">
-        <section class="s">
-          <p>
-          G+10 Apartment, Burayu
-          </p>
-        </section>
-      </section>
-      <section class="p">
-        <img src="IMG_20240206_213037_383.jpg" alt="">
-        <section class="s">
-          <p>
-          G+1 Villa, Burayu
-          </p>
-        </section>
-      </section>
-    <section class="p">
-      <img src="IMG_20240201_200612_965.jpg" alt="">
-      <section class="s">
-        <p>
-          G+3 Villa, Burayu
-        </p>
-      </section>
-    </section>
-    <section class="p">
-      <img src="IMG_20240205_082618_572.jpg" alt="">
-      <section class="s">
-        <p>
-          G+4 Hotel, Burayu
-        </p>
-      </section>
-    </section>
-    <section class="p">
-      <img src="IMG_20240201_200608_532.jpg" alt="">
-      <section class="s">
-        <p>
-          G+3 Villa, Burayu
-        </p>
-      </section>
-    </section>
-    <section class="p">
-      <img src="IMG_20240206_212137_272.jpg" alt="">
-      <section class="s">
-        <p>
-          G+2 Villa, Burayu
-        </p>
-      </section>
-    </section>
-    <section class="p">
-      <img src="IMG_20240201_200613_426.jpg" alt="">
-      <section class="s">
-        <p>
-          G+1 Villa, Burayu
-        </p>
-      </section>
-    </section>
-    <section class="p">
-      <img src="IMG_20240206_212138_016.jpg" alt="">
-      <section class="s">
-        <p>
-          G+1 Villa, Burayu
-        </p>
-      </section>
-    </section><section class="p">
-      <img src="IMG_20240201_200613_396.jpg" alt="">
-      <section class="s">
-        <p>
-          G+2 Villa, Burayu
-        </p>
-      </section>
-    </section>
-    <section class="p">
-      <img src="IMG_20240206_213037_865.jpg" alt="">
-      <section class="s">
-        <p>
-          G+1 Villa, Burayu
-        </p>
-      </section>
-    </section><section class="p">
-      <img src="IMG_20240206_213037_912.jpg" alt="">
-      <section class="s">
-        <p>
-          G+1 Villa, Burayu
-        </p>
-      </section>
-    </section>
-    <section class="p">
-      <img src="IMG_20240206_213037_070.jpg" alt="">
-      <section class="s">
-        <p>
-          G+1 Church, Burayu
-        </p>
-      </section>
-    </section>
-  </div>
-  
-  <div class="about_us" id="about us">
-    <h3>About Us</h3>
-    <section class="about">
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque asperiores dignissimos exercitationem quasi nemo ipsum beatae, odit labore quia adipisci ullam illum mollitia hic architecto voluptatem atque officia voluptatum nobis eaque natus repellendus voluptates! Libero saepe sed accusantium laborum voluptas. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque asperiores dignissimos exercitationem quasi nemo ipsum beatae, odit labore quia adipisci ullam illum mollitia hic architecto voluptatem atque officia voluptatum nobis eaque natus repellendus voluptates! Libero saepe sed accusantium laborum voluptas.</p>
-    </section>
-    <section class="about">
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque asperiores dignissimos exercitationem quasi nemo ipsum beatae, odit labore quia adipisci ullam illum mollitia hic architecto voluptatem atque officia voluptatum nobis eaque natus repellendus voluptates! Libero saepe sed accusantium laborum voluptas. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque asperiores dignissimos exercitationem quasi nemo ipsum beatae, odit labore quia adipisci ullam illum mollitia hic architecto voluptatem atque officia voluptatum nobis eaque natus repellendus voluptates! Libero saepe sed accusantium laborum voluptas.
-      </p>
-    </section>  
-  </div>
-  
-  <div class="foot">
-    <div class="socials" id="contact">
-      <h3>Get In Touch</h3>
-      <div class="icons">
-        <img src="/portfolio_2/img/facebook_i.png" alt="icon">
-        <img src="/portfolio_2/img/insta_i.png" alt="icon">
-        <img src="/portfolio_2/img/linkedin.png" alt="icon">
-        <img src="/portfolio_2/img/whatsapp_i.png" alt="icon">
-        <img src="/portfolio_2/img/upwork_i.png" alt="icon">
-      </div>
-    </div>
-    
-    <div class="forms">
-      <form>
-        <input type="text" id="r1" name="message" placeholder="Enter your essage"><br>
-        <input type="email" id="email" name="email" placeholder="Enter your email address"><br>
-        <input type="email" id="email" name="email" value="sgetnet178@gmail.com"><br>
-        <input type="submit" id="r3">
-      </form>
-    </div>
-    
+
+    <!-- Footer -->
     <footer>
-      <p>Copyright @2025 | All rights are reserved</p>
-      <p>Powered By Samuel Getnet</p>
+        &copy; 2026 ONLINE JOBS. All Rights Reserved.
     </footer>
-  </div>
+
 </body>
 </html>
